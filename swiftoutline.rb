@@ -1,8 +1,8 @@
 class Swiftoutline < Formula
   desc "Swift ViewControllers Outline Visualization Tool"
   homepage "https://github.com/kenmaz/SwiftOutline"
-  url "https://github.com/kenmaz/SwiftOutline/archive/0.0.1.tar.gz"
-  sha256 "665fb011101a05f74a91d308ad4ae101c897b4efd5d489d9ad020f50eaa8807b"
+  url "https://github.com/kenmaz/SwiftOutline/archive/0.0.2.tar.gz"
+  sha256 "6ac2736826136e8c5ae7e759702a200854dae7fae037c38402b331faa627aedd"
 
   def install
     system "make", "install", "PREFIX=#{prefix}"
