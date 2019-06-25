@@ -9,5 +9,5 @@ class Swiftoutline < Formula
   end
 
   depends_on :xcode => ["10.2.1", :build]
-  depends_on :graphviz
+  depends_on "graphviz"
 end
